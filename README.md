@@ -8,6 +8,6 @@ Methods and Results of UMC project.
 
 # Table of Contents
 
-SMART-MR cohort analysis
+[SMART-MR cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
 
 Meta-analysis

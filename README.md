@@ -10,4 +10,4 @@ Methods and Results of UMC project.
 
 [SMART-MR cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
 
-Meta-analysis
+[Meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/Meta-analysis)

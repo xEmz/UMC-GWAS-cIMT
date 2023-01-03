@@ -16,6 +16,6 @@ In this research, data from multiple individual cohort studies with almost 60,00
 
 The project consists of two parts; the analysis of SMART cohort with regenie, and the meta-analysis with MetaGWASToolKit.
 
---[SMART cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
+- [SMART cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
 
---[Meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/Meta-analysis)
+- [Meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/Meta-analysis)

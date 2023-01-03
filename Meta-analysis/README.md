@@ -1,4 +1,6 @@
-Combined and sex-stratified genome-wide association meta-studies performed in a bash environment using  MetaGWASToolKit. Post-GWAS analysis is performed using clumping with PLINK and gene annotation with FUMA.
+Combined and sex-stratified genome-wide association meta-studies performed in a bash environment using  MetaGWASToolKit. Post-GWAS analysis is performed using clumping with PLINK and gene annotation with FUMA. 
+
+Scripts used for meta-analysis can be found in the [MetaGWASToolKit](https://github.com/swvanderlaan/MetaGWASToolKit.git) repository.
 
 <br>
 

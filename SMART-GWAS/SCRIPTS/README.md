@@ -22,7 +22,7 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 - Generates index files from the .bgen files. Used by REGENIE to quicken the process.
 
 [regenie.step.1](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.step.1.sh):
-- Run step 1 from regenie on each chromosome .bgen file with specified covariates and phenotypes to create LOCO predictions. Seperate scripts from <b>combined</b> and <b>male/female stratified</b> analysis.
+- Run step 1 from regenie on each chromosome .bgen file with specified covariates and phenotypes to create LOCO predictions. Seperate scripts from [regenie.step.1.combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.step.1.combined.sh) and <b>[regenie.step.1.male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.step.1.male.sh)/[regenie.step.1.female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.step.1.female.sh) stratified</b> analysis.
 
 [regenie.step.2](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.step.2.sh):
 - Run step 2 from regenie on each chromosome .bgen file with specified covariates and phenotypes using generated LOCO predictions to analyse associations. Seperate scripts from <b>combined and male/female stratified</b> analysis.

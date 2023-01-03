@@ -1,6 +1,6 @@
 # SMART cohort analysis
 
-In this research project, the SMART cohort was analysed for sex-combined and sex-stratified genome-wide significant variants. <br> GWAS was performed with regenie.
+In this research project, the SMART cohort was analysed for sex-combined and sex-stratified genome-wide significant variants. <br> GWAS was performed with [regenie](https://rgcgithub.github.io/regenie/).
 
 <br>
 
@@ -10,4 +10,5 @@ In this research project, the SMART cohort was analysed for sex-combined and sex
 
 # Table of contents
 
+The scripts used to perform the analysis. 
 - [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/9282e2a2d96468699205437dc824ce91e6195157/SMART-GWAS/SCRIPTS)

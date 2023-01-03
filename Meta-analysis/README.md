@@ -10,6 +10,6 @@ Scripts used for meta-analysis can be found in the [MetaGWASToolKit](https://git
 
 # Table of contents
 
-The data of the cohorts, including the study name and database, sample size of females and males, case status, ancestry, genotyping method, reference genome, imputation method and reference dataset, GWAS method and	cIMT measurement.
+The data of the cohorts, including the study name and database, sample size of females and males, case status, ancestry, genotyping method, reference genome, imputation method and reference dataset, GWAS method, cIMT measurement and the sources of the information.
 
 - [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/9282e2a2d96468699205437dc824ce91e6195157/SMART-GWAS/SCRIPTS)

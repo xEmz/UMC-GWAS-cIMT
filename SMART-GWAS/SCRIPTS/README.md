@@ -30,10 +30,10 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 [regenie.zipper](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.zipper.sh):
 - Zips up file as .gz.
 
-[regenie.qc](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.qc.sh):
+[regenie.qc](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.qc.combined.sh):
 - Filters out SNPs with set BETA, Z-score, P-value and MAF quality. Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.female.sh) stratified analysis.
 
-[regenie.plotter](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.plotter.sh):
+[regenie.plotter](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.plotter.combined.sh):
 - Plots out results using R scripts in:
 <br>-- QQ
 <br>-- ManHattan

@@ -43,7 +43,7 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 <br> Plots from filtered files are generated with qcplots. Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.female.sh) stratified analysis. 
 
 
-<p><b><i>Current R scripts:</i></b>
+<b><i>Current R scripts:</i></b>
  <br>
 [Generate.P.R](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/Generate.P.R):
  - Calculate P-values from -log10P REGENIE output 

@@ -6,17 +6,14 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 <br>
 <p><b><i>Current bash (.sh) scripts:</i></b>
 
-[SMART.make.bgen.filtered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.filtered.sh):
-- Convert individual autosomal chromosome .gen files to .bgen and .sample using PLINK2. Output files used for REGENIE .
-
 [SMART.make.bgen](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh):
-- Convert individual autosomal chromosome .gen files to .bgen and .sample using PLINK2. [Filtered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh) script is used for regenie <b>step 1</b>, [unfiltered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh) script used for regenie <b>step 2</b>.
+- Convert individual autosomal chromosome .gen files to .bgen and .sample using PLINK2. [Filtered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.filtered.sh) script is used for regenie <b>step 1</b>, [unfiltered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh) script used for regenie <b>step 2</b>.
 
 [qctool.chromosome.X](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/qctool.chromosome.X.sh):
 - Converts .gen.gz file of chromosome 23 to .gen.gz file with males coded as diploid. Output file used for .bgen format conversion.
 
 [SMART.make.bgen.X](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.X.sh):
-- Convert X chromosome .gen file to .bgen and .sample file. Seperate .sample file is used with males coded as diploid. Output files used for REGENIE.
+- Convert X chromosome .gen file to .bgen and .sample file. Seperate .sample file is used with males coded as diploid. [Filtered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.filtered.X.sh) script is used for regenie <b>step 1</b>, [unfiltered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.X.sh) script used for regenie <b>step 2</b>.
 
 [bgi.generate](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/bgi.generate.sh):
 - Generates index files from the .bgen files. Used by REGENIE to quicken the process.
@@ -34,14 +31,16 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 - Zips up file as .gz.
 
 [regenie.qc](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.qc.sh):
-- Filters out SNPs with set BETA, Z-score, P-value and MAF quality
+- Filters out SNPs with set BETA, Z-score, P-value and MAF quality. Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qc.female.sh) stratified analysis.
 
 [regenie.plotter](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/regenie.plotter.sh):
 - Plots out results using R scripts in:
 <br>-- QQ
 <br>-- ManHattan
 <br>-- P-Z
+<br> Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.female.sh) stratified analysis.
 <br>
+<br> Plots from filtered files are generated with qcplots. Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.female.sh) stratified analysis. <br>
  </p>
 <p><b><i>Current R scripts:</i></b>
 [Generate.P.R](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/Generate.P.R):

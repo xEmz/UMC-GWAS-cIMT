@@ -45,6 +45,6 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 
 <b><i>Current R scripts:</i></b>
  
- <br> [Generate.P.R](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/Generate.P.R):
+[Generate.P.R](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/Generate.P.R):
  - Calculate P-values from -log10P REGENIE output 
  </p>

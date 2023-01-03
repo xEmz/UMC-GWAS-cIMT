@@ -7,13 +7,14 @@ With a death rate of nearly 18 million people each year, cardiovascular diseases
 However, limited well-powered data from multiple populations have been gathered about sex-specific effects on atherosclerosis. Men and women are generally analysed together in sex-combined genetic analyses, which estimate the homogeneity of the genetic effects in men and women. </br>
  
  <br>
-In this research, data from multiple individual cohort studies with almost 60,000 men and women from different populations have been collected. Individual imputation and quality control had already been performed on the cohorts, and sample files containing both- and separated sexes had been generated. The multiple cohorts were cleaned, reformatted, and harmonized in a standardized way for meta-analysis. A sex-stratified analysis on separate male and female samples has been performed to test for sex-specific significant variants. Post-GWAS analysis has been performed to gain more insight into the significant variants and genes.</br>
+In this research, data from multiple individual cohort studies with almost 60,000 men and women from different populations have been collected. Except for the SMART cohort, individual imputation and quality control had already been performed on the cohorts, and sample files containing both- and separated sexes had been generated. The multiple cohorts were cleaned, reformatted, and harmonized in a standardized way for meta-analysis. A combined and stratified single analysis on the SMART cohort has been performed before the meta-analysis A sex-stratified analysis on separate male and female samples has been performed to test for sex-specific significant variants. Post-GWAS analysis has been performed to gain more insight into the significant variants and genes.</br>
 
 
-**flowchart**
 
 
 # Table of contents
+
+The project consists of two parts; the analysis of SMART cohort with regenie, and the meta-analysis with MetaGWASToolKit.
 
 [SMART cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
 

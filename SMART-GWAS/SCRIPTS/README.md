@@ -39,6 +39,7 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 <br>-- ManHattan
 <br>-- P-Z
 <br> Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.plotter.female.sh) stratified analysis.
+ 
 <br> Plots from filtered files are generated with qcplots. Seperate scripts for [combined](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.combined.sh) and [male](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.male.sh)/[female](https://github.com/xEmz/UMC-GWAS-cIMT/blob/e4906bfa9f77ea09f1c18e0b2c5f4af2fd0bc2f7/SMART-GWAS/SCRIPTS/regenie.qcplots.female.sh) stratified analysis. 
 
 

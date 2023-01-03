@@ -5,7 +5,7 @@ Outside of regenie, this kit makes use of PLINK2, BGENIX, QCTOOL, and perl and R
 <br>
 <br>
 <p><b><i>Current bash (.sh) scripts:</i></b>
-
+<br>
 [SMART.make.bgen](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh):
 - Convert individual autosomal chromosome .gen files to .bgen and .sample using PLINK2. [Filtered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.filtered.sh) script is used for regenie <b>step 1</b>, [unfiltered](https://github.com/xEmz/UMC-GWAS-cIMT/blob/6b4ee734e805da62edce6fdbc66dc152bd365b64/SMART-GWAS/SCRIPTS/SMART.make.bgen.sh) script used for regenie <b>step 2</b>.
 

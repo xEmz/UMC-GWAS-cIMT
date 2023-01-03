@@ -10,4 +10,4 @@ In this research project, the SMART cohort was analysed for sex-combined and sex
 
 # Table of contents
 
-[SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/9282e2a2d96468699205437dc824ce91e6195157/SMART-GWAS/SCRIPTS/README.md)
+[SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/9282e2a2d96468699205437dc824ce91e6195157/SMART-GWAS/SCRIPTS)

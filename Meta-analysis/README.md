@@ -4,7 +4,7 @@ Scripts used for meta-analysis can be found in the [MetaGWASToolKit](https://git
 
 <br>
 
-![Alt text](https://github.com/xEmz/Avans-files/blob/9d52a2af6d63e27dfbadc65b587d69f7eccc266c/cIMT-meta.drawio.png)
+![Alt text](https://github.com/xEmz/Avans-files/blob/0b5db23474547033b8c6499c166b537ac2e6075b/cIMT-meta.drawio.png)
 
 </br>
 

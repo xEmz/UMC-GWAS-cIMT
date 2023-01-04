@@ -4,7 +4,7 @@ In this research project, the SMART cohort was analysed for sex-combined and sex
 
 <br>
 
-![Alt text](https://github.com/xEmz/Avans-files/blob/214cebf39f968698b0797283cf253866cd7bf67a/REGENIE_SMART_UMC.drawio.png)
+![Alt text](https://github.com/xEmz/Avans-files/blob/0b5db23474547033b8c6499c166b537ac2e6075b/REGENIE_SMART_UMC-SMART-MR.drawio.png)
 
 </br>
 

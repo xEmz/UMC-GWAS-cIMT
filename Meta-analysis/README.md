@@ -11,3 +11,4 @@ Scripts used for the miami plot and interaction-analysis are not included in Met
 
 
 - [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/Meta-analysis/SCRIPTS)
+-[Information on the cohorts used in the meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/blob/main/Meta-analysis/Cohort_Data.xlsx)

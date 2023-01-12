@@ -24,7 +24,7 @@ A combined and stratified single analysis of the SMART cohort has been performed
 
 # Table of contents
 
-The project consists of two parts; the analysis of SMART cohort with regenie, and the meta-analysis with MetaGWASToolKit.
+The project consists of two parts; the analysis of SMART cohort with regenie, and the meta-analysis with MetaGWASToolKit (includes interaction analysis).
 
 - [SMART cohort analysis](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/SMART-MR%20cohort%20analysis)
 

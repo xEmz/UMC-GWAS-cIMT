@@ -9,7 +9,7 @@ Outside of MetaGWASToolKit, this method makes use of PLINK and loose R scripts.
 <br>[Clumping](https://github.com/xEmz/UMC-GWAS-cIMT/blob/3ff7407ecec21a3aaa7a09fbde68460a7506849e/Meta-analysis/SCRIPTS/clumping.filtered.sh):
 - Clumps loci of the GWAMA with a given lead variant using PLINK. </br>
  
- <b><i> R scripts:</i></b>
+ <br><b><i> R scripts:</i></b>
 
 <br>[Interaction analysis](https://github.com/xEmz/UMC-GWAS-cIMT/blob/3ff7407ecec21a3aaa7a09fbde68460a7506849e/Meta-analysis/SCRIPTS/sex_interaction.cimt.R):
 - R script used for performing interaction analysis between male- and female- stratified analysis.

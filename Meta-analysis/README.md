@@ -4,7 +4,7 @@ Scripts used for meta-analysis can be found in the [MetaGWASToolKit](https://git
 Scripts used for clumping, the miami plot, blobbogram and interaction-analysis are not from MetaGWASToolKit and are found in this repository.
 
 <br><br><br>
-![Alt text](https://github.com/xEmz/Avans-files/blob/5b7b41a2e6c93762b1822c1c6ddc66495d0b6177/cIMT-meta.drawio.png)
+![Alt text](https://github.com/xEmz/UMC-GWAS-cIMT/blob/97f50fb5532a0758e47736762cc6b63b54be4ccc/Meta-analysis/cIMT-meta.drawio.png)
 
 </br></br></br>
 # Table of contents
@@ -12,5 +12,6 @@ Scripts used for clumping, the miami plot, blobbogram and interaction-analysis a
 
 - [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/2f335d6718aee6cea9715422783da142525b7c0d/Meta-analysis/cIMT-meta.drawio.png)
 
+- [FLOWCHART](https://github.com/xEmz/UMC-GWAS-cIMT/blob/97f50fb5532a0758e47736762cc6b63b54be4ccc/Meta-analysis/cIMT-meta.drawio.png)
 
 - [Information on the cohorts used in the meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/blob/main/Meta-analysis/Cohort_Data.xlsx)

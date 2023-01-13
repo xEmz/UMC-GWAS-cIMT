@@ -10,7 +10,7 @@ Scripts used for clumping, the miami plot, blobbogram and interaction-analysis a
 # Table of contents
 
 
-- [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/tree/main/Meta-analysis/SCRIPTS)
+- [SCRIPTS](https://github.com/xEmz/UMC-GWAS-cIMT/blob/2f335d6718aee6cea9715422783da142525b7c0d/Meta-analysis/cIMT-meta.drawio.png)
 
 
 - [Information on the cohorts used in the meta-analysis](https://github.com/xEmz/UMC-GWAS-cIMT/blob/main/Meta-analysis/Cohort_Data.xlsx)

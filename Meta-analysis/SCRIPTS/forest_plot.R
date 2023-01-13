@@ -1,0 +1,44 @@
+
+
+#set_loc
+ROOT_loc = "/Users/esmulde2/"
+RESULTS_loc = paste0(ROOT_loc, 
+                    "Documents/Stage/Results/")
+PROJECT_loc = paste0(RESULTS_loc,
+                     "METAGWAS/")
+
+
+#load packages
+#library(RACER)
+library(data.table)
+library(tidyverse)
+library(readxl)
+library(dplyr)
+
+
+#male_forest <- read_excel(paste0(PROJECT_loc, "males/forest_input.xlsx"))
+
+#female_forest <- read_excel(paste0(PROJECT_loc, "females/forest_input.xlsx"))
+
+
+ggplot(data=male_forest, aes(y=Index, x=effect, xmin=lower, xmax=upper, size = `-log10P`)) +
+  geom_point() +
+  geom_errorbarh(height=.1) +
+  xlim(-0.05, 0.05) +
+  ggtitle("Effect size of lead variant in GWAS clumps") +
+  xlab("Effect Size (BETA±SE") +
+  geom_text(aes(label = SNP), check_overlap = TRUE, hjust=0, vjust=-1.2, size = 3) +
+  geom_point(color='black') +
+  scale_y_continuous(name = "Gene", breaks=1:nrow(male_forest), labels=male_forest$Gene)
+
+
+ggplot(data=female7_forest, aes(y=Index, x=effect, xmin=lower, xmax=upper, size = `-log10P`)) +
+  geom_point() +
+  geom_errorbarh(height=.1) +
+  xlim(-0.05, 0.05) +
+  ggtitle("Effect size of lead variant in GWAS clumps") +
+  xlab("Effect Size (BETA±SE") +
+  geom_text(aes(label = SNP), check_overlap = TRUE, hjust=0, vjust=-1.2, size = 3) +
+  geom_point(color='black') +
+  scale_y_continuous(name = "Gene", breaks=1:nrow(female7_forest), labels=female7_forest$Gene)
+

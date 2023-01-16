@@ -15,7 +15,7 @@ This research aims to gain new insights into sexual dimorphic effects on the dev
 
 <br>
 Data from multiple individual cohort studies with over 70,000 men and women from different populations have been collected. Except for the SMART cohort, individual imputation and quality control had already been performed on the cohorts, and sample files containing stratified sexes had been generated. The multiple cohorts were cleaned, reformatted, and harmonized in a standardized way for meta-analysis. 
-It was expected that the results of the sex-stratified meta-analysis would show sexual dimorphic effects on cIMT. It was also expected that genetic effects associated with sex hormones and lipid metabolism will be associated with a difference in the development of cIMT and that higher effect sizes will be shown in men than in women. </br>
+It was expected that meta-analysis from multiple populations would increase the power and reliability of the analysis. It was also expected that the results of the sex-stratified meta-analysis would show sexual dimorphic effects on cIMT and that higher effect sizes will be shown in men than in women as men have a higher plaque burden than women. </br>
 
 <br>
 A combined and stratified single analysis of the SMART cohort has been performed before the meta-analysis. A sex-stratified meta-analysis on separate male and female samples has been performed to test for sex-specific significant variants. A sex-interaction analysis has been performed to test for the difference between sex-specific effect sizes and post-GWAS analysis has been performed to gain more insight into the significant variants and genes. </br>
